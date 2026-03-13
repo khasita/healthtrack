@@ -221,7 +221,7 @@ numexpr @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/numexp
 numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_falv04vejw/croot/numpy_and_numpy_base_1730835597469/work/dist/numpy-2.1.3-cp313-cp313-macosx_11_0_arm64.whl#sha256=1865179a32137876307f011b8122764016f0990f749a9c59994912039defb549
 numpydoc @ file:///opt/conda/conda-bld/numpydoc_1643788541039/work
 openpyxl @ file:///Users/builder/cbouss/buildout/croot/openpyxl_1739486465110/work
-orjson==3.11.3
+orjson==3.11.6
 overrides @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/overrides_1728586843197/work
 packaging @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a6_qk3qyg7/croot/packaging_1734472142254/work
 pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4aifrweohv/croot/pandas_1732735109535/work/dist/pandas-2.2.3-cp313-cp313-macosx_11_0_arm64.whl#sha256=8f01410ead9f51bf614097bf4230440a4461983f8acb57141e819b93d81e26d6
@@ -340,7 +340,7 @@ semver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_85w
 Send2Trash @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a6shz7yg5h/croot/send2trash_1736541353497/work
 sentry-sdk @ file:///Users/builder/cbouss/buildout/croot/sentry-sdk_1735858402985/work
 service-identity @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_bcsu3iimeq/croot/service_identity_1749714989457/work
-setuptools==72.1.0
+setuptools==78.1.1
 shellingham @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/shellingham_1728591266231/work
 simplejson==3.20.2
 sip @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_7dqoklyi10/croot/sip_1736542203351/work
@@ -407,7 +407,7 @@ websocket-client @ file:///Users/builder/cbouss/perseverance-python-buildout/cro
 websockets==16.0
 Werkzeug @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_87am5fxnsf/croot/werkzeug_1737448721856/work
 whatthepatch @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/whatthepatch_1728595757689/work
-wheel==0.45.1
+wheel==0.46.2
 widgetsnbextension @ file:///Users/builder/cbouss/buildout/croot/widgetsnbextension_1735844095800/work
 wrapt @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_30cvf__dq_/croot/wrapt_1736541623359/work
 wurlitzer @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/wurlitzer_1728595793015/work
