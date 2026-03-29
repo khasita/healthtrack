@@ -31,4 +31,6 @@ class Role(Base):
         nullable=False,
     )
 
-    user_roles = relationship("UserRole", back_populates="role", cascade="all, delete-orphan")
+    user_roles = relationship(
+        "UserRole", back_populates="role", cascade="all, delete-orphan"
+    )

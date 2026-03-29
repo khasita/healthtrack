@@ -11,7 +11,9 @@ from app.db.base_class import Base
 class PatientProviderAssignment(Base):
     __tablename__ = "patient_provider_assignments"
     __table_args__ = (
-        UniqueConstraint("patient_id", "provider_id", name="uq_patient_provider_assignment"),
+        UniqueConstraint(
+            "patient_id", "provider_id", name="uq_patient_provider_assignment"
+        ),
     )
 
     id: Mapped[uuid.UUID] = mapped_column(

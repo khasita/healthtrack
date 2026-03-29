@@ -40,6 +40,14 @@ class Patient(Base):
     )
 
     user = relationship("User", back_populates="patient_profile")
-    assignments = relationship("PatientProviderAssignment", back_populates="patient", cascade="all, delete-orphan")
-    vitals = relationship("VitalSignRecord", back_populates="patient", cascade="all, delete-orphan")
-    activities = relationship("ActivityRecord", back_populates="patient", cascade="all, delete-orphan")
+    assignments = relationship(
+        "PatientProviderAssignment",
+        back_populates="patient",
+        cascade="all, delete-orphan",
+    )
+    vitals = relationship(
+        "VitalSignRecord", back_populates="patient", cascade="all, delete-orphan"
+    )
+    activities = relationship(
+        "ActivityRecord", back_populates="patient", cascade="all, delete-orphan"
+    )

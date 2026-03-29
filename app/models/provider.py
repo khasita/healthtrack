@@ -25,7 +25,9 @@ class Provider(Base):
     first_name: Mapped[str] = mapped_column(String(100), nullable=False)
     last_name: Mapped[str] = mapped_column(String(100), nullable=False)
     specialty: Mapped[str | None] = mapped_column(String(100), nullable=True)
-    license_number: Mapped[str | None] = mapped_column(String(100), nullable=True, unique=True)
+    license_number: Mapped[str | None] = mapped_column(
+        String(100), nullable=True, unique=True
+    )
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
@@ -40,4 +42,8 @@ class Provider(Base):
     )
 
     user = relationship("User", back_populates="provider_profile")
-    assignments = relationship("PatientProviderAssignment", back_populates="provider", cascade="all, delete-orphan")
+    assignments = relationship(
+        "PatientProviderAssignment",
+        back_populates="provider",
+        cascade="all, delete-orphan",
+    )
