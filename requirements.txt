@@ -10,7 +10,7 @@ python-jose==3.5.0
 passlib==1.7.4
 python-multipart==0.0.22
 python-dotenv==1.2.2
-pytest==9.0.2
+pytest==9.0.3
 httpx==0.28.1
 ruff==0.15.5
-black==26.3.0
+black==26.3.1
